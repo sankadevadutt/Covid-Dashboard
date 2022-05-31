@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+  position: relative;
+}
+.card {
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius : 10px;
+  padding: 4px;
+  height:150px;
+  margin:5px;
+  border : 0.2px solid grey;
+}
+
+
+::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-right: none;
+    border-left: none;
+}
+
+::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
+
+img.container22{
+border-radius : 10px;
+}
+
+.card22{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius : 10px;
+  padding: 4px;
+  border : 0.2px solid grey;
+  margin: 15px;
+  width: 90%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card22:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container22 {
+  padding: 2px 16px;
+}
+div.polaroid1 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  align: center;
+  background-color: #ecfeee;
+}
+
+div.polaroid2 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  align: center;
+  background-color:#ebfaff;
+}
+
+div.polaroid3 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  align: center;
+  background-color:#f3f1fe;
+}
+
+div.polaroid4 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  align: center;
+  background-color:#fff1ec;
+}
+
+div.polaroid5 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  align: center;
+  background-color:#fdf4e5;
+}
+
+div.polaroid6 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  align: center;
+  background-color:#ecf4ff;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 15;
+  width: 80px;
+  background-color: #ffffff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border: solid 0.5px lightgrey;
+}
+
+
+.sidebar a.active {
+
+  color: white;
+}
+
+
+
+
+.sidebar a:hover:not(.active) {
+  background-color: #e17862;
+  color: white;
+  width : 35px;
+  height: 35px;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 104vh;
+  display: flex;
+}
+
+div.text2{
+    line-height: 0.5em;
+}
+
+
+
+div.Databox {
+  background-color: white;
+  width: 1000px;
+  height: 500px;
+  overflow: auto;
+  border: solid 1px grey;
+  border-radius: 10px;
+  position: absolute;
+}
+
+div.image {
+  flex-basis: 40%
+ }
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
