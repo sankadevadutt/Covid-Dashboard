@@ -49,8 +49,5 @@ Please follow the steps below to set up the project environment:
 ## Usage
 After starting the app, navigate to `http://127.0.0.1:8050/` in your web browser to access the dashboard. Select your state and district to view the availability of healthcare resources in your area.
 
-## Contributing
-Contributions to enhance the functionality or efficiency of the dashboard are welcome. Please fork the repository and submit a pull request for review.
-
 ## Acknowledgments
 Our heartfelt thanks to the faculty of Amrita School of Engineering, Bangalore, and all those who supported us throughout this project.
