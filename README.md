@@ -1,6 +1,3 @@
-Based on the comprehensive project report provided, here's a suggested README template for the COVID-19 Dashboard project on GitHub:
-
-
 # COVID-19 Information Visual Dashboard
 
 ## Project Overview
