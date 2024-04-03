@@ -35,6 +35,7 @@ The system architecture ensures robust performance through multi-processing and 
 ## Installation
 Please follow the steps below to set up the project environment:
 
+   ```
 1. Clone the repository
    ```bash
    git clone https://github.com/sankadevadutt/Covid-Dashboard.git
